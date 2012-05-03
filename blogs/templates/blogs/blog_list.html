@@ -1,0 +1,7 @@
+blogs/templates/blogs/blog_list.html
+
+<ul>
+{% for blog in blog_list %}
+  <li>{{ blog.title }}</li>
+{% endfor %}
+</ul>
